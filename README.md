@@ -1,5 +1,5 @@
 # generator-plumpnation-basic-html [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
-> A very basic starter for quick experiments
+> A simple yeoman generator to learn how to make them and to seed frontend micro experiments.
 
 ## Installation
 
@@ -7,7 +7,9 @@ First, install [Yeoman](http://yeoman.io) and generator-plumpnation-basic-html u
 
 ```bash
 npm install -g yo
-npm install -g generator-plumpnation-basic-html
+
+# as yet unpublished
+# npm install -g generator-plumpnation-basic-html
 ```
 
 Then generate your new project:
