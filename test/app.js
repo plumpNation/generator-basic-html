@@ -4,9 +4,11 @@ let path    = require('path');
 let assert  = require('yeoman-assert');
 let helpers = require('yeoman-test');
 
+let appDir  = path.join(__dirname, '../generators/app');
+
 describe('generator-plumpnation-basic-html:app', function () {
     before(function () {
-        return helpers.run(path.join(__dirname, '../generators/app'))
+        return helpers.run(appDir)
             .withPrompts({title: 'Foobar'})
             .toPromise();
     });
