@@ -1,0 +1,23 @@
+{
+    "ecmaFeatures": {
+
+    },
+
+    "env"         : {
+        "es6": true
+    },
+
+    "globals"     : {
+
+    },
+
+    "plugins"     : [
+
+    ],
+
+    "rules": {
+        "no-multi-spaces": 0,
+        "indent": ["error", 4],
+        "arrow-parens": 2
+    }
+}
