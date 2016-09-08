@@ -45,6 +45,11 @@ module.exports = yeoman.Base.extend({
             this.templatePath('styles.css'),
             this.destinationPath('styles.css')
         );
+
+        this.fs.copy(
+            this.templatePath('gitignore'),
+            this.destinationPath('.gitignore')
+        );
     },
 
     install: function () {
